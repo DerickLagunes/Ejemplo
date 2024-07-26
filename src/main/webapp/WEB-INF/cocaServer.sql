@@ -111,32 +111,7 @@ create table economico_evaluacion (
 
 -- Datos usuarios
 INSERT INTO usuarios (nombre_usuario, contrasena, tipo_usuario) VALUES 
-("minerva", sha2("RMAD3224641",256),"tecnico"),
-("uriel", sha2("FUGA3224641",256),"tecnico"),
-("esteban", sha2("EGA322464",256),"tecnico"),
-("elizau", sha2("REF322464",256),"tecnico"),
-("mayra", sha2("MRMA322464",256),"tecnico"),
-("sayra", sha2("SMA322464",256),"tecnico"),
-("samuel", sha2("SAVF322464",256),"tecnico"),
-("enrique", sha2("EGR322464",256),"tecnico"),
-("michelle", sha2("MLH322464",256),"tecnico");
+("tecnico", sha2("contraSegura",256),"tecnico");
 
 INSERT INTO usuarios (nombre_usuario, contrasena, tipo_usuario) VALUES 
-("TABASCO-7", sha2("T322464",256),"cliente"),
-("VERACRUZ-8",  sha2("V322464",256),"cliente"),
-("QUERETARO-9",  sha2("Q322464",256),"cliente"),
-("SJDR-15",  sha2("S322464",256),"cliente"),
-("TLAXCALA-8",  sha2("T322464",256),"cliente"),
-("PUEBLA-6",  sha2("P322464",256),"cliente"),
-("TAMAULIPAS-10",  sha2("T322464",256),"cliente"),
-("CDMX-4",  sha2("C322464",256),"cliente"),
-("TENANGO-7",  sha2("T322464",256),"cliente"),
-("MONARCA-7",  sha2("M322464",256),"cliente"),
-("TOLUCA-6",  sha2("T322464",256),"cliente"),
-("GUERRERO-8",  sha2("G322464",256),"cliente"),
-("OAXACA-6",  sha2("O322464",256),"cliente"),
-("MORELOS-7",  sha2("M322464",256),"cliente"),
-("MMCARGA-5",  sha2("M322464",256),"cliente"),
-("TRAMUSA-7",  sha2("T322464",256),"cliente"),
-("TJL-3",  sha2("T322464",256),"cliente"),
-("GUEMES-6",  sha2("G322464",256),"cliente");
+("TABASCO-7", sha2("contraSegura",256),"cliente");
